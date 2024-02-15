@@ -1,0 +1,23 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyttldict"
+version = "1.0.0"
+description = "Python Dictionary with timed expiring keys"
+readme = "README.md"
+authors = [{ name = "Gurjant Kalsi", email = "me@gurjantkalsi.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["ttl", "expiry", "dictionary", "expiring"]
+requires-python = ">=3.5"
+
+[project.urls]
+Homepage = "https://github.com/gkalsi/ttl-dict"
